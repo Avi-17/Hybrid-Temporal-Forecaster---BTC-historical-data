@@ -152,6 +152,7 @@ pip install pandas numpy matplotlib statsmodels pmdarima scikit-learn scipy jobl
 ```
 
 ### Step 2: Obtain the Dataset
+- Install the btc historical data from [BTC Historical Data](https://www.kaggle.com/datasets/swaptr/bitcoin-historical-data)
 - The analysis uses the **`btcusd_1-min_data.csv`** file containing minute-resolution BTC/USD OHLCV data.
 - The CSV must have the following columns (with a header row): `timestamp`, `open`, `high`, `low`, `close`, `volume`.
 - The `timestamp` column should be in **Unix epoch format (seconds)**.
